@@ -193,46 +193,78 @@
             </ul>
         </div>
     </div>
-    <h1 style="text-align: center; color: #214723; font-size: 40px; margin-bottom: 60px;"><b>Mais informações</b></h1>
-    <div class="promoçoes">
-        <h1>Receba todas as promoções</h1>
-        <p>Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!</p>
-        <div class="centralizar">
-            <input type="text" class="email" placeholder="E-mail:">
-        </div>
-    </div>
+    
     <footer>
-        <div class="container-footer">
-            <div class="grid-container-left">
-                <div class="grid-item" id="grid-left">Menu</div>
-                <div class="grid-item">
-                    <ul>
-                        <li>Suporte</li>
-                        <li>Contato</li>
-                        <li>Sobre nós</li>
-                        <li>Biquinis</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container-footer">
-            <div class="grid-container-meio">
-                <div class="grid-item" style="font-size: 25px;">Formas de pagamento</div>
-                <div class="grid-item" id="pagamentos-footer"><img src="img/icon-pagamento.png"></div>
-            </div>
-        </div>
-        <div class="container-footer">
-            <div class="grid-container-right">
-                <div class="grid-item">Se conecte a nós!</div>
-                <ul>
-                    <li><img src="img/tiktok-icon.png"></li>
-                    <li><img src="img/zap-icon.png"></li>
-                    <li><img src="img/instagram-icon.png"></li>
+        <!-- no footerBox vai ter background image -->
+        <div class="footerBox">
+          <!-- footerContent vai ser uma caixa no meio da imagem contedo demais infos -->
+          <div class="footerContent">
+            <div class="footerSocial">
+              <div class="socialText">
+                <h3>Follow</h3>
+              </div>
+              <div class="socialIcons">
+                <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+              </div>
+              <div class="socialMenu">
+                <ul class="list1">
+                  <li><a href="#">Feminino</a></li>
+                  <li><a href="#">Masculino</a></li>
+                  <li><a href="#">Sustentabilidade</a></li>
                 </ul>
+                <ul class="list2">
+                  <li><a href="#">Contato</a></li>
+                  <li><a href="#">Sobre Nós </a></li>
+                  <li><a href="#">Voltar ao Topo</a></li>
+                </ul>
+              </div>
             </div>
+            <div class="footerPayment">
+              <div class="paymentSubscription">
+                <h3>Receba ofertas e descontos exclusivos!</h3>
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    id="subscriptionEmail"
+                    placeholder="E-mail"
+                  />
+                  <button type="submit" id="submitButton">Cadastrar</button>
+                </form>
+              </div>
+              <div class="paymentCards">
+                <p>Formas de Pagamento</p>
+                <div class="paymentIcons">
+                  <a href="#"><i class="fa-solid fa-barcode fa-2xl"></i></a>
+                  <a href="#"><i class="fa-brands fa-paypal fa-2xl"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-pay fa-2xl"></i></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-cc-diners-club fa-2xl"></i
+                  ></a>
+                  <a href="#"><i class="fa-brands fa-cc-amex fa-2xl"></i></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-cc-mastercard fa-2xl"></i
+                  ></a>
+                  <a href="#"><i class="fa-brands fa-cc-visa fa-2xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+  
+          <h6 id="textoFinal">Copyright GreenWave - 000000002020001 - 2024. Todos os direitos reservados.</h6>
+   
+      </footer>
+    <!-- link para FontAwesome -->
+    <script
+    src="https://kit.fontawesome.com/b7057748ce.js"
+    crossorigin="anonymous"></script>
 
-    </footer>
+    <!-- lik java -->
     <script src="js/script.js"></script>
 </body>
 
