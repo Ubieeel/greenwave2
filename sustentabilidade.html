@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sustentabilidade</title>
+    <link rel="stylesheet" href="css/sutentabilidade.css" />
+    <!-- link para fonte "Comfortaa" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- termino do link para  -->
+  </head>
+  <body>
+
+<!-- header -->
+<header>
+        
+  <div class="divisor"></div>
+  <div class="header-body">
+      <img src="img/Logo icon.png" class="logotipo">
+      <a href="index.html"><img src="img/titulo-green.png" class="titulo"></a>
+      <img src="img/menus do header.png" class="menus-header">
+
+      <!--   Login   -->
+      <div class="clicar-no-login" onclick="AbrirLogin()"></div>
+      <div class="popUpLogin" id="login">
+          <div id="boxlogin">
+
+          <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
+          <h1 id="logintxt">Login</h1>
+
+          <!-- linha 2 -->
+          <label for="email"><b>Email</b></label>
+          <input  type="text" placeholder="Email..." name="email" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Senha..." name="psw" required>
+          <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
+          <button type="button" class="btnCancelar" onclick="FecharLogin()">Fechar</button>
+      </div>
+      </div>
+  </div>
+  </div>
+
+  <!-- Nav -->
+  <div class="nav-menu">
+      <ul>
+         <a href="index.html"></a><li>PÁGINA INICIAL</li></a>
+         <a href="feminino.html"></a> <li>FEMININO <img src="img/setinha-pra-baixo.png" class="setinha-f"></li></a>
+          <li>MASCULINO <img src="img/setinha-pra-baixo.png" class="setinha-m"></li>
+          <li>SUSTENTABILIDADE</li>
+          <li>CONTATO</li>
+          <li>SOBRE NÓS</li>
+      </ul>
+      <div>
+          <input type="text" class="menu-de-busca" placeholder="O que deseja buscar?">
+          <img src="img/lupinha.png" class="lupa">
+      </div>
+  </div>
+</header>
+
+
+    <!-- Inicio do main sustentabilidade -->
+
+    <!-- Após o carrossel  - Se tiver-->
+    <div class="sustentabilidade">
+      <div class="sustentabilidade_texto">
+        <h3>Pense Verde</h3>
+        <p>Conheça mais sobre as iniciativas que querem melhorar o Brasil</p>
+      </div>
+      <div class="sustentabilidade_links">
+        <div class="link_tamar">
+          <figure id="tamar">
+            <a href="http://www.tamar.org.br/"><img src="img/tamar.png" alt="" /></a>
+            <a href="http://www.tamar.org.br/"><figcaption>Projeto Tamar</figcaption></a>
+          </figure>
+        </div>
+        <div class="link_sos_mata_atlantica">
+          <figure id="sos">
+            <a href="https://www.sosma.org.br/"><img src="img/sos.png" alt="" />
+            <a href="https://www.sosma.org.br/"><figcaption>SOS Mata Atlântica</figcaption></a>
+          </figure>
+        </div>
+        <div class="link_wwf">
+          <figure id="wwf">
+            <a href="https://www.wwf.org.br/"><img src="img/wwf.png" alt="" /></a>
+            <a href="https://www.wwf.org.br/"><figcaption>WWF Brasil</figcaption></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+
+<!-- carrousel mais vendidos -->
+<h6 class="principais_buscas">Os mais vendidos</h6>
+<div class="galeriasustentabilidade">
+<ul class="galeria-carrossel">
+    <li>
+        <a href="#"><img src="img/biquini_verde_agua.png"></a>
+        <div class="detalhes">
+            <h3 class="produto">Biquini Acqua</h3>
+            <h2 class="preço">R$210,00</h2>
+            <p class="parcelas">ou 3x R$70,00</p>
+        </div>
+    </li>
+    <li>
+        <a href="#"><img src="img/bolsa_sereia.png"></a>
+        <div class="detalhes">
+            <h3 class="produto">Bolsa Sereia</h3>
+            <h2 class="preço">R$150,00</h2>
+            <p class="parcelas">ou 3x R$50,00</p>
+        </div>
+    </li>
+    <li>
+        <a href="#"><img src="img/oculos_coco_verde.png"></a>
+        <div class="detalhes">
+            <h3 class="produto">Óculos Green</h3>
+            <h2 class="preço">R$270,00</h2>
+            <p class="parcelas">ou 3x R$ 90,00</p>
+        </div>
+    </li>
+    <li>
+        <a href="#"><img src="img/bolsa_palha_redonda.png"></a>
+        <div class="detalhes">
+            <h3 class="produto">Bolsa Palha</h3>
+            <h2 class="preço">R$180,00</h2>
+            <p class="parcelas">ou 3x R$60,00</p>
+        </div>
+    </li>
+</ul>
+</div>
+    <!-- Espaço para o FOOTER -->
+    <footer>
+      <!-- no footerBox vai ter background image -->
+      <div class="footerBox">
+        <!-- footerContent vai ser uma caixa no meio da imagem contedo demais infos -->
+        <div class="footerContent">
+          <div class="footerSocial">
+            <div class="socialText">
+              <h3>Siga nossas redes sociais</h3>
+            </div>
+            <div class="socialIcons">
+              <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+            </div>
+            <div class="socialMenu">
+              <ul>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Sustentabilidade</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nós </a></li>
+                <li><a href="#">Voltar ao Topo</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerPayment">
+            <div class="paymentSubscription">
+              <h3>Receba ofertas e descontos exclusivos!</h3>
+              <form action="#">
+                <input
+                  type="email"
+                  name="email"
+                  id="subscriptionEmail"
+                  placeholder="E-mail"
+                />
+                <button type="submit" id="submitButton">Cadastrar</button>
+              </form>
+            </div>
+            <div class="paymentCards">
+              <p>Formas de Pagamento</p>
+              <div class="paymentIcons">
+                <a href="#"><i class="fa-solid fa-barcode fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-paypal fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-google-pay fa-2xl"></i></a>
+                <a href="#"
+                  ><i class="fa-brands fa-cc-diners-club fa-2xl"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-cc-amex fa-2xl"></i></a>
+                <a href="#"
+                  ><i class="fa-brands fa-cc-mastercard fa-2xl"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-cc-visa fa-2xl"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="textoFinal">
+            <h6>Copyright GreenWave - 000000002020001 - 2024. Todos os direitos</h6>
+          </div>
+        </div>
+      </div>
+</footer>
+    <!-- link para FontAwesome precisa colocar!-->
+    <script
+      src="https://kit.fontawesome.com/b7057748ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
