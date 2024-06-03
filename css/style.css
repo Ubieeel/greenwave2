@@ -67,6 +67,10 @@ li {
 
 }
 
+.nav-menu a {
+    color: black;
+}
+
 /*---------------------- LOGIN -----------------------*/
 
 .clicar-no-login {
