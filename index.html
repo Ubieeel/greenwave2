@@ -12,7 +12,6 @@
 
 <body>
     <header>
-        
         <div class="divisor"></div>
         <div class="header-body">
             <img src="img/Logo icon.png" class="logotipo">
@@ -24,35 +23,75 @@
             <div class="popUpLogin" id="login">
                 <div id="boxlogin">
 
-                <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
-                <h1 id="logintxt">Login</h1>
+                    <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
+                    <h1 id="logintxt">Conecte-se a sua conta</h1>
 
-                <!-- linha 2 -->
-                <label for="email"><b>Email</b></label>
-                <input  type="text" placeholder="Email..." name="email" required>
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Senha..." name="psw" required>
-                <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
-                <button type="button" class="btnCancelar" onclick="FecharLogin()">Fechar</button>
+                    <!-- linha 2 -->
+                    <label id="btnlabel" for="email"><b>Nome de usuário</b></label>
+                    <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+                    <label id="btnlabel" for="psw"><b>Senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Senha..." name="psw" required>
+                    <a id="suppop" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+
+
+                    <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
+                    <button type="button" class="btncadastro" onclick="Abrircadastro()">Cadastrar-se</button>
+                    <button type="button" class="btnCancelar" onclick="FecharLogin()">X</button>
+                    
+                </div>
             </div>
-            </div>
+
+            <!-- cadastro -->
+            <div class="popUpcadastro" id="cadastro">
+                <div id="boxcadastro"> 
+                
+                    <img id="iconpop2" src="img/Logo icon.png" alt="Logo icon">
+                    <h1 id="logincadastro">Registre a sua conta</h1>
+
+                    <!-- cadastros -->
+
+                    <label id="btnlabel2" for="email"><b>Nome de usuário</b></label>
+                    <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+                    <label id="btnlabel2" for="email"><b>Endereço de Email</b></label>
+                    <input class="inputpop" type="password" placeholder="Email..." name="psw" required>
+                    <label id="btnlabel" for="psw"><b>Senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+                    <label id="btnlabel" for="psw"><b>Confirme a senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+                    <a id="suppop2" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+
+                    <button type="submit" class="btn" onclick="window.location.reload()">Enviar</button>
+                    <a id="suppop3"  onclick="AbrirLogin()" href="#">Já tem uma conta? Conecte-se agora!</a>
+                    <button type="button" class="btnCancelar" onclick="Fecharcadastro()">X</button>
+                </div> <!-- cadastro fim box -->
+            </div>  <!-- cadastro fim -->
         </div>
         </div>
-
         <!-- Nav -->
         <div class="nav-menu">
             <ul>
+<<<<<<< HEAD
+                <li><a href="index.html">PÁGINA INICIAL</a></li>
+                <li><a href="feminino.html">FEMININO</a></li>
+                <li><a href="acessorios.html">ACESSÓRIOS</a></li>
+                <li><a href="sustentabilidade.html">SUSTENTABILIDADE</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+=======
                 <li>PÁGINA INICIAL</li>
                 <li>FEMININO <img src="img/setinha-pra-baixo.png" class="setinha-f"></li>
                 <li>SUSTENTABILIDADE</li>
                 <li>CONTATO</li>
                 <li>SOBRE NÓS</li>
+>>>>>>> main
             </ul>
             <div>
                 <input type="text" class="menu-de-busca" placeholder="O que deseja buscar?">
                 <img src="img/lupinha.png" class="lupa">
             </div>
         </div>
+
+        <div class="bglogin" id="back"></div>
     </header>
 
     <h6 class="quemsomos"><b>Quem somos?</b></h6>
@@ -264,6 +303,13 @@
               <div class="socialMenu">
                 <ul class="list1">
                   <li><a href="#">Feminino</a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                  <li><a href="#">Acessórios</a></li>
+=======
+>>>>>>> main
+>>>>>>> Monteiro
                   <li><a href="#">Sustentabilidade</a></li>
                   <li><a href="#">Contato</a></li>
                   <li><a href="#">Sobre Nós </a></li>
