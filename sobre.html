@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sobrenos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>GreenWave</title>
+</head>
+
+<body>
+    <header>
+        
+        <div class="divisor"></div>
+        <div class="header-body">
+            <img src="img/Logo icon.png" class="logotipo">
+            <a href="index.html"><img src="img/titulo-green.png" class="titulo"></a>
+            <img src="img/menus do header.png" class="menus-header">
+
+            <!--   Login   -->
+            <div class="clicar-no-login" onclick="AbrirLogin()"></div>
+            <div class="popUpLogin" id="login">
+                <div id="boxlogin">
+
+                    <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
+                    <h1 id="logintxt">Conecte-se a sua conta</h1>
+
+                    <!-- linha 2 -->
+                    <label id="btnlabel" for="email"><b>Nome de usuário</b></label>
+                    <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+                    <label id="btnlabel" for="psw"><b>Senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Senha..." name="psw" required>
+                    <a id="suppop" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+
+
+                    <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
+                    <button type="button" class="btncadastro" onclick="Abrircadastro()">Cadastrar-se</button>
+                    <button type="button" class="btnCancelar" onclick="FecharLogin()">X</button>
+                    
+                </div>
+            </div>
+
+            <!-- cadastro -->
+            <div class="popUpcadastro" id="cadastro">
+                <div id="boxcadastro"> 
+                
+                    <img id="iconpop2" src="img/Logo icon.png" alt="Logo icon">
+                    <h1 id="logincadastro">Registre a sua conta</h1>
+
+                    <!-- cadastros -->
+
+                    <label id="btnlabel2" for="email"><b>Nome de usuário</b></label>
+                    <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+                    <label id="btnlabel2" for="email"><b>Endereço de Email</b></label>
+                    <input class="inputpop" type="password" placeholder="Email..." name="psw" required>
+                    <label id="btnlabel" for="psw"><b>Senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+                    <label id="btnlabel" for="psw"><b>Confirme a senha</b></label>
+                    <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+                    <a id="suppop2" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+
+                    <button type="submit" class="btn" onclick="window.location.reload()">Enviar</button>
+                    <a id="suppop3"  onclick="AbrirLogin()" href="#">Já tem uma conta? Conecte-se agora!</a>
+                    <button type="button" class="btnCancelar" onclick="Fecharcadastro()">X</button>
+                </div> <!-- cadastro fim box -->
+            </div>  <!-- cadastro fim -->
+        </div>
+        </div>
+
+        <!-- Nav -->
+        <div class="nav-menu">
+          <ul>
+            <li><a href="index.html">PÁGINA INICIAL</a></li>
+            <li><a href="feminino.html">FEMININO</a></li>
+            <li><a href="acessorios.html">ACESSÓRIOS</a></li>
+            <li><a href="sustentabilidade.html">SUSTENTABILIDADE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+        </ul>
+            <div>
+                <input type="text" class="menu-de-busca" placeholder="O que deseja buscar?">
+                <img src="img/lupinha.png" class="lupa">
+            </div>
+        </div>
+        <div class="bglogin" id="back"></div>
+    </header>
+
+    <h6 class="quemsomos"><b>Bem-Vinda à GreenWave !</b></h6>
+            <p class="quemsomosEX">Oferecemos conforto e compromisso ambiental</p>
+
+               <!-- Inicio site -->
+
+
+    <div class="box">
+        <div class="container">
+
+          <img src="img/Sobrenos/greenbeach.png" style="width: 1000px; height: 350px;">
+
+          <h1 class="sobreright"><b>Missão</b></h1>
+            
+          <p class="sobrelegright">
+            Oferecer uma moda praia feminina que alinhe estilo e conforto com o bem-estar ambiental.
+          </p>
+
+          <img src="img/Sobrenos/meninanaprancha.png" style="width: 1000px; height: 350px;">
+
+          <h1 class="sobreleft"><b>Visão</b></h1>
+            
+          <p class="sobrelegleft">
+            Ser a marca líder em moda praia sustentável, sendo reconhecida por nossa dedicação ao meio ambiente e pela excelência nas experiências vivenciadas de nossas clientes.
+          </p>
+
+          <img src="img/Sobrenos/duasmeninas.png" style="width: 1000px; height: 350px;">
+
+          <h1 class="sobrecenter"><b>Por que uma marca sustentàvel?</b></h1>
+            
+          <p class="sobrelegcenter">
+            Queremos aumentar a opção de moda sustentável online e ajudar na conscientização das pessoas acerca do tema, tendo como objetivo um futuro melhor para todos.
+          </p>
+
+          <hr>
+
+        </div>
+    </div>
+
+    <h1 style="text-align: center; color: #214723; font-size: 26px; margin-bottom: 60px; margin-top: 80px; text-transform: uppercase;"><b>Mais Informações</b></h1>
+
+    <div class="informaçoes-cinza">
+        <div>
+            <ul>
+                <li><img src="img/icon-enviamos.png"></li>
+                <li>
+                    <p><b><span class="titulos-info">Enviamos para todo Brasil</span></b><br>os produtos chegam onde
+                        você estiver, e bem rápido!</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="img/icon-trocamos.png"></li>
+                <li>
+                    <p><b><span class="titulos-info">Primeira troca gratuita!</span></b><br>Não se preocupe se precisar
+                        trocar de tamanho ou cor, o primeiro envio é por nossa conta!</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="img/icon-casa.png"></li>
+                <li>
+                    <p><b><span class="titulos-info">Bem-estar</span></b><br>Você merece um pacotinho de amor e leveza,
+                        conta com a gente :)</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="img/icon-sustentável.png"></li>
+                <li>
+                    <p><b><span class="titulos-info">Cuidamos da natureza</span></b><br>Todas as etapas de venda,
+                        prezamos pela sustentabilidade e cuidamos com o meio ambiente.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+      <!-- no footerBox vai ter background image -->
+      <div class="footerBox">
+        <!-- footerContent vai ser uma caixa no meio da imagem contedo demais infos -->
+        <div class="footerContent">
+          <div class="footerSocial">
+            <div class="socialText">
+              <h3>Follow</h3>
+            </div>
+            <div class="socialIcons">
+              <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+            </div>
+            <div class="socialMenu">
+              <ul class="list1">
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Sustentabilidade</a></li>
+              </ul>
+              <ul class="list2">
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nós </a></li>
+                <li><a href="#">Voltar ao Topo</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerPayment">
+            <div class="paymentSubscription">
+              <h3>Receba ofertas e descontos exclusivos!</h3>
+              <form action="#">
+                <input
+                  type="email"
+                  name="email"
+                  id="subscriptionEmail"
+                  placeholder="E-mail"
+                />
+                <button type="submit" id="submitButton">Cadastrar</button>
+              </form>
+            </div>
+            <div class="paymentCards">
+              <p>Formas de Pagamento</p>
+              <div class="paymentIcons">
+                <a href="#"><i class="fa-solid fa-barcode fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-paypal fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-google-pay fa-2xl"></i></a>
+                <a href="#"
+                  ><i class="fa-brands fa-cc-diners-club fa-2xl"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-cc-amex fa-2xl"></i></a>
+                <a href="#"
+                  ><i class="fa-brands fa-cc-mastercard fa-2xl"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-cc-visa fa-2xl"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <h6 id="textoFinal">Copyright GreenWave - 000000002020001 - 2024. Todos os direitos reservados.</h6>
+ 
+    </footer>
+    <!-- link para FontAwesome -->
+    <script
+    src="https://kit.fontawesome.com/b7057748ce.js"
+    crossorigin="anonymous"></script>
+
+    <!-- lik java -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

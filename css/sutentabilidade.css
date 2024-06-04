@@ -22,12 +22,20 @@
     background: #888f68;; 
   }
 
-  html,
+html,
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #ececec;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* -------------------HEADER---------------- */
 
 header {
     position: fixed;
@@ -37,18 +45,63 @@ header {
     z-index: 5;
 }
 
-.box {
-    max-width: 1200px;
-    margin: 0px auto;
-    border: 4px solid transparent;
-    background-color: #ececec;
+
+.titulo {
+    width: auto;
+    height: auto;
+    margin-left: 630px;
+    padding-top: 40px;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+.nav-menu {
+    width: 100%;
+    height: 40px;
+    background-color: #ececec;
+    box-shadow: 0px 5px 30px 1px rgb(194, 187, 187);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-menu > ul > li > a {
+    text-decoration: none;
+    color: #214723;
+    transition: font-size 500ms;
+}
+
+
+.nav-menu> ul > li > a:hover{
+    font-size: 18px;
+    color: #39a740;
+}
+
+.nav-menu> ul > li > a:active{
+   color: #47d851;
+}
+
+
+.menu-de-busca {
+    width: 450px;
+    height: 30px;
+    border: 2px solid #666A51;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+    font-size: 18px;
+    padding-right: 40px;
     padding-left: 10px;
-    padding-right: 10px;
+}
+
+input::placeholder {
+    opacity: 60%;
+  }
+
+.lupa {
+    position: absolute;
+    top: 155px;
+    right: 20px;
+    width: 20px;
 }
 
 ul {
@@ -63,42 +116,6 @@ ul {
 li {
     float: right;
     margin: 0 0 0 40px;
-    color: #666A51;
-}
-
-.setinha-f,
-.setinha-m {
-    margin-bottom: 3px;
-}
-
-.divisor {
-    width: 100%;
-    height: 15px;
-    background-color: #666A51;
-}
-
-
-.header-body {
-    width: 100%;
-    height: 130px;
-    background-color: #ececec;
-}
-
-.logotipo {
-    width: 100px;
-    height: 100px;
-    margin-top: 15px;
-    margin-left: 10px;
-    float: left;
-    padding-left: 20px;
-}
-
-.menus-header {
-    width: auto;
-    height: auto;
-    float: right;
-    margin-top: 40px;
-    margin-right: 10px;
 }
 
 /*---------------------- CADASTRO  -----------------------*/
@@ -112,14 +129,13 @@ li {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: -10px;
+    top: 30px;
     border: 3px solid #666A51;
     height: 835px;
     width: 575px;
     z-index: 9;
     border-radius: 30px;
 }
-
 
 #boxcadastro {
     display: flex;
@@ -228,14 +244,15 @@ li {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 50px;
+    top: 150px;
     border: 3px solid #666A51;
     height: 648px;
     width: 430px;
     border-radius: 30px;
     z-index: 3;
-    
 }
+
+
 
 
 .bglogin {
@@ -246,7 +263,6 @@ li {
     position: fixed;
     display: none;
 }
-
 
 
 #boxlogin {
@@ -281,13 +297,10 @@ li {
     border-radius: 10px;
 }
 
-
-
 #register {
     color: #666A51;
     margin: -18px 41px 18px 41px;
 }
-
 
 .popUpLogin> #boxlogin> input {
     background-color: blue;
@@ -298,164 +311,96 @@ li {
     background: #c5c5c58f;
     border-radius: 10px
 }
-/* ---
-/* -------------------HEADER---------------- */
 
-.titulo {
+/* fim login */
+
+.setinha-f,
+.setinha-m {
+    margin-bottom: 3px;
+}
+
+.divisor {
+    width: 100%;
+    height: 15px;
+    background-color: #666A51;
+}
+
+
+.header-body {
+    width: 100%;
+    height: 130px;
+    background-color: #ececec;
+}
+
+.logotipo {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+.menus-header {
     width: auto;
     height: auto;
-    margin-left: 630px;
-    padding-top: 40px;
-}
-
-.nav-menu {
-    width: 100%;
-    height: 40px;
-    background-color: #ececec;
-    box-shadow: 0px 5px 30px 1px rgb(194, 187, 187);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.nav-menu > ul > li > a {
-    text-decoration: none;
-    color: #214723;
-    transition: font-size 500ms;
-}
-
-
-.nav-menu> ul > li > a:hover{
-    font-size: 18px;
-    color: #39a740;
-}
-
-.nav-menu> ul > li > a:active{
-   color: #47d851;
-}
-
-
-.menu-de-busca {
-    width: 450px;
-    height: 30px;
-    border: 2px solid #666A51;
-    border-radius: 10px;
     float: right;
+    margin-top: 40px;
     margin-right: 10px;
-    margin-top: -30px;
-    font-size: 18px;
-    padding-right: 40px;
-    padding-left: 10px;
 }
 
-input::placeholder {
-    opacity: 60%;
-  }
+/* body do sustentabilidade */
 
-.lupa {
-    position: absolute;
-    top: 155px;
-    right: 20px;
-    width: 20px;
-}
+/* box container 100% width */
 
-/* parte carrosel */
-
-section.slider {
-    margin: 0 auto;
+.sustentabilidade_texto{
     width: 100%;
-    height: auto;
-    padding: 0;
-    overflow: hidden;
-}
-.slider-content {
-    width: 400%;
-    height: auto;
-    display: flex;
-}
-.slider-content input{ 
-    display: none;
-}
- .slide-box {
-        width: 25%;
-        height: auto;
-        position: relative;
-        text-align: center;
-        transition: 1s;
-    }
- .slide-box img {
-       width: 1800px; 
-       height: 600px;
-    }
-.nav-manual, .nav-auto {
-        position: absolute;
-        width: 100%;
-        margin-top: 35%;
-        display: flex;
-        justify-content: center;
-    }
- 
-.nav-manual .manual-btn, nav-auto div {
-        border: 1px solid green; 
-        padding: 10px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 0.2s;
-        }
-        .nav-manual .manual-btn:not(:last-child), nav-auto div:not(:last-child) {
-            margin-right: 10px;
-        }
-        .nav-manual .manual-btn:hover {
-            background-color: green;
-        }
-        #radio1:checked ~ .nav-auto .auto-btn1 {
-            background-color: darkolivegreen;
-        }
-        #radio1:checked ~ .nav-auto .auto-btn2 {
-            background-color: darkolivegreen;
-        }
-        #radio1:checked ~ .nav-auto .auto-btn3 {
-            background-color: darkolivegreen;
-        }
-        #radio1:checked ~ .nav-auto .auto-btn4 {
-            background-color: darkolivegreen;
-        }
-        #radio1:checked ~ .nav-auto .auto-btn5 {
-            background-color: darkolivegreen;
-        }
-        #radio1:checked ~ .primeiro{
-            margin-left: 0%;
-        }
-        #radio2:checked ~ .primeiro{
-            margin-left: -25%;
-        }
-        #radio3:checked ~ .primeiro{
-            margin-left: -50%;
-        }
-        #radio4:checked ~ .primeiro{
-            margin-left: -75%;
-        }
-        #radio5:checked ~ .primeiro{
-            margin-left: -100%;
-        }
-        
-
-
-.quemsomos {
+    padding: 100px 300px 10px 300px;
     text-align: center;
-    color: #214723;
-    font-size: 34px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family: comfortaa;
+    font-size: 20px;
+}
+.sustentabilidade_texto h3, p{
+    color: green;
+    margin: 5px 0 15px 0px;
+}
+.sustentabilidade{
+    width: 100%;
+}
+.sustentabilidade_links{
+    width: 100%;
+    padding: 100px 500px 100px 500px;
 }
 
-.quemsomosEX {
-    text-align: center;
-    color: #214723;
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 34px;
+/* para as imagens ocuparem 100% do box sustentabilidade_links */
+.sustentabilidade_links figure img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(6, 80, 16, 0.459);
+    margin-bottom: 10px;
 }
+
+#tamar figcaption,#sos figcaption, #wwf figcaption{
+    font-family: comfortaa;
+    font-size: 20px;
+    color: green;
+}
+#tamar a, #sos a, #wwf a{
+    text-decoration: none;
+}
+
+/* para inserir transition nas fotos */
+#tamar, #sos, #wwf{
+    margin-bottom: 50px;
+     transition: transform 1.3s;
+}
+
+#tamar:hover, #sos:hover, #wwf:hover{
+    margin-bottom: 50px;
+    transform: scale(1.1,1.1)
+}
+
+
+/* css da galeria carrousel bolsa palha */
 
 .principais_buscas {
     text-align: center;
@@ -465,26 +410,26 @@ section.slider {
     margin-bottom: 10px;
 }
 
-.galeria {
-    display: flex;
-    justify-content: center;
-    transition: transform 500ms;
+.produto {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+    color: #667F48;
 }
 
-.galeria>li {
-    margin: 10px;
+.preço {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0px 10px 0px;
+    color: #667F48;
 }
 
-.galeria>li:hover {
-    transform: scale(1.05,1.05)
+.parcelas {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+    color: #667F48;
 }
-
-.galeria li>a>img {
-    height: 300px;
-    margin: 0;
-    padding: 0;
-}
-
 .galeria .detalhes p {
     color: #667F48;
 }
@@ -495,155 +440,25 @@ section.slider {
     margin: 0;
 }
 
-.produto {
-    text-align: center;
-    font-size: 30px;
-    margin: 10px 0px 10px 0px;
-}
-
-.preço {
-    text-align: center;
-    font-size: 35px;
-    margin: 10px 0px 10px 0px;
-}
-
-.parcelas {
-    text-align: center;
-    font-size: 25px;
-    margin: 10px 0px 10px 0px;
-    color: #667F48;
-}
-
-.galeria_2 {
-    display: flex;
-    justify-content: center;
-}
-
-.galeria_2>li {
-    margin: 10px;
-    transition: transform 500ms;
-}
-
-.galeria_2>li:hover {
-    transform: scale(1.05,1.05)
-}
-
-.galeria_2 li>a>img {
-    height: 500px;
-    width: 500px;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-}
-
-
-.galeria_2 .detalhes h3 {
-    color: black;
-    font-size: 30px;
-    margin: 0px 0px 20px 0px;
-}
-
-.galeria_2 .detalhes h2 {
-    color: black;
-    font-size: 15px;
-    margin: 0px 0px 0px 0px;
-
-}
-
-.galeria_2 .detalhes {
-    text-align: center;
-    font-size: 11px;
-}
-
 .galeria-carrossel {
     display: flex;
     justify-content: center;
-    transition: transform 500ms;
 }
 
 .galeria-carrossel>li {
     margin: 10px;
+    list-style-type: none;
+    transition: transform 500ms;
 }
 
 .galeria-carrossel>li:hover {
     transform: scale(1.05,1.05)
 }
-
 .galeria-carrossel>li>a>img {
     height: 300px;
     width: 300px;
     margin-left: 10px;
-}
-
-.informaçoes {
-    max-width: 100%;
-}
-
-.mais-informaçoes {
-    text-align: center;
-    color: #214723;
-    font-size: 34px;
-    margin: 60px;
-}
-
-.promoçao {
-    max-width: 100%;
-    height: 300px;
-    background-color: #667F48;
-}
-
-.promotion {
-    text-align: center;
-    color: #ffffff;
-    font-size: 45px;
-    margin: 0px;
-    padding-top: 100px;
-}
-
-.oferta {
-    text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 20px;
-}
-
- /* info cinza */
-
-
- 
-.informaçoes-cinza {
-    background-color: #d9d9d9;
-    width: 100%;
-    height: 160px;
-    margin: 100px 0px 60px 0px;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.informaçoes-cinza img {
-    width: 70px;
-    height: 70px;
-    margin-top: 30px;
-}
-
-.informaçoes-cinza li {
-    margin: 0px 10px;
-}
-
-.informaçoes-cinza p {
-    max-width: 400px;
-    margin-top: 30px;
-    color: black;
-    min-width: 2px;
-}
-
-.informaçoes-cinza h6 {
-    margin: 0px;
-}
-
-.titulos-info {
-    font-size: 22px;
+    border-radius: 5px;
 }
 
 
