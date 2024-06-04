@@ -382,13 +382,13 @@ input::placeholder {
 
 .sustentabilidade_texto{
     width: 100%;
-    padding: 100px 300px 10px 300px;
+    padding: 235px 300px 10px 300px;
     text-align: center;
-    font-family: comfortaa;
+    font-family: 'Montserrat';
     font-size: 20px;
 }
 .sustentabilidade_texto h3, p{
-    color: green;
+    color: #214723;
     margin: 5px 0 15px 0px;
 }
 .sustentabilidade{
