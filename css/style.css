@@ -27,6 +27,7 @@ body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
     background-color: #ececec;
+<<<<<<< HEAD
 }
 
 header {
@@ -35,6 +36,8 @@ header {
     
     top: 0px;
     z-index: 5;
+=======
+>>>>>>> main
 }
 
 .box {
@@ -99,6 +102,7 @@ li {
     float: right;
     margin-top: 40px;
     margin-right: 10px;
+<<<<<<< HEAD
 }
 
 /*---------------------- CADASTRO  -----------------------*/
@@ -179,6 +183,8 @@ li {
     text-align: center;
     color: #666A51;
     margin: -10px 51px 30px 125px;
+=======
+>>>>>>> main
 }
 
 /*---------------------- LOGIN -----------------------*/
@@ -312,7 +318,11 @@ li {
     width: 100%;
     height: 40px;
     background-color: #ececec;
+<<<<<<< HEAD
     box-shadow: 0px 5px 30px 1px rgb(194, 187, 187);
+=======
+    /* box-shadow: 0px 5px 30px 1px rgb(194, 187, 187); */
+>>>>>>> main
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
@@ -384,19 +394,19 @@ section.slider {
         transition: 1s;
     }
  .slide-box img {
-       width: 1800px; 
+       width: 2000px; 
        height: 600px;
     }
 .nav-manual, .nav-auto {
         position: absolute;
         width: 100%;
-        margin-top: 35%;
+        margin-top: 32%;
         display: flex;
         justify-content: center;
     }
  
 .nav-manual .manual-btn, nav-auto div {
-        border: 1px solid green; 
+        border: 1px solid #667F48; 
         padding: 10px;
         border-radius: 50%;
         cursor: pointer;
@@ -406,22 +416,22 @@ section.slider {
             margin-right: 10px;
         }
         .nav-manual .manual-btn:hover {
-            background-color: green;
+            background-color: #667F48;
         }
         #radio1:checked ~ .nav-auto .auto-btn1 {
-            background-color: darkolivegreen;
+            background-color: #666A51;
         }
         #radio1:checked ~ .nav-auto .auto-btn2 {
-            background-color: darkolivegreen;
+            background-color: #666A51;
         }
         #radio1:checked ~ .nav-auto .auto-btn3 {
-            background-color: darkolivegreen;
+            background-color: #666A51;
         }
         #radio1:checked ~ .nav-auto .auto-btn4 {
-            background-color: darkolivegreen;
+            background-color: #666A51;
         }
         #radio1:checked ~ .nav-auto .auto-btn5 {
-            background-color: darkolivegreen;
+            background-color: #666A51;
         }
         #radio1:checked ~ .primeiro{
             margin-left: 0%;
@@ -439,20 +449,19 @@ section.slider {
             margin-left: -100%;
         }
         
-
-
 .quemsomos {
     text-align: center;
     color: #214723;
-    font-size: 34px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .quemsomosEX {
     text-align: center;
     color: #214723;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 5px;
     margin-bottom: 34px;
 }
@@ -460,15 +469,20 @@ section.slider {
 .principais_buscas {
     text-align: center;
     color: #214723;
-    font-size: 34px;
+    font-size: 20px;
     margin-top: 100px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .galeria {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     transition: transform 500ms;
+=======
+    padding-bottom: 70px;
+>>>>>>> main
 }
 
 .galeria>li {
@@ -483,6 +497,7 @@ section.slider {
     height: 300px;
     margin: 0;
     padding: 0;
+    border-radius: 5px;
 }
 
 .galeria .detalhes p {
@@ -497,19 +512,21 @@ section.slider {
 
 .produto {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0px 10px 0px;
+    color: #666A51;
 }
 
 .preço {
     text-align: center;
-    font-size: 35px;
+    font-size: 18px;
     margin: 10px 0px 10px 0px;
+    color: #667F48;
 }
 
 .parcelas {
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     margin: 10px 0px 10px 0px;
     color: #667F48;
 }
@@ -517,6 +534,7 @@ section.slider {
 .galeria_2 {
     display: flex;
     justify-content: center;
+    padding-top: 70px;
 }
 
 .galeria_2>li {
@@ -538,14 +556,16 @@ section.slider {
 
 
 .galeria_2 .detalhes h3 {
-    color: black;
-    font-size: 30px;
+    color: #667F48;
+    font-size: 20px;
     margin: 0px 0px 20px 0px;
+    text-transform: uppercase;
+    margin-top: 35px;
 }
 
 .galeria_2 .detalhes h2 {
-    color: black;
-    font-size: 15px;
+    color: #666A51;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
 
 }
@@ -571,8 +591,9 @@ section.slider {
 
 .galeria-carrossel>li>a>img {
     height: 300px;
-    width: 300px;
-    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
 }
 
 .informaçoes {
@@ -586,7 +607,7 @@ section.slider {
     margin: 60px;
 }
 
-.promoçao {
+/* .promoçao {
     max-width: 100%;
     height: 300px;
     background-color: #667F48;
@@ -598,14 +619,14 @@ section.slider {
     font-size: 45px;
     margin: 0px;
     padding-top: 100px;
-}
+} 
 
 .oferta {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
     margin-top: 20px;
-}
+} */
 
  /* info cinza */
 
@@ -615,10 +636,9 @@ section.slider {
     background-color: #d9d9d9;
     width: 100%;
     height: 160px;
-    margin: 100px 0px 60px 0px;
+    margin: 60px 0px 60px 0px;
     display: flex;
     flex-direction: row;
-    
 }
 
 .informaçoes-cinza img {
@@ -636,6 +656,7 @@ section.slider {
     margin-top: 30px;
     color: black;
     min-width: 2px;
+    font-size: 15px;
 }
 
 .informaçoes-cinza h6 {
@@ -643,11 +664,9 @@ section.slider {
 }
 
 .titulos-info {
-    font-size: 22px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
-
-
-
 
 /* Propiedades Footer */
 
@@ -671,11 +690,13 @@ footer{
     width: 100%;
     position: absolute;
     top: 120px;
-    font-family: Comfortaa;
+    font-family: "Montserrat", sans-serif;
     justify-content: space-evenly;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 .socialMenu{
     display: grid;
@@ -689,15 +710,18 @@ footer{
 .list1 {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-area: list1;
+    margin-top: 10px;
 }
 
 .list2 {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-area: list2;
+    margin-left: 130px;
+    width: 272px;
 }
 
 
@@ -777,11 +801,11 @@ footer ul li{
 #textoFinal{
     text-align: center;
     position: absolute;
-    width: 520px;
+    width: 750px;
     top: 350px;
     left: 50%;
     margin-left: -255px;
-    font-family: comfortaa;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: bolder;
     color: grey;

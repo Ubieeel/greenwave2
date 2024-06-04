@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Barra de rolagem */
 
 /* width */
@@ -601,3 +602,392 @@ footer ul li{
     font-weight: bolder;
     color: grey;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.titulo {
+    width: auto;
+    height: auto;
+    margin-left: 630px;
+    padding-top: 40px;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 30px 1px rgb(194, 187, 187);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-menu a {
+    color: black;
+}
+
+.menu-de-busca {
+    width: 450px;
+    height: 30px;
+    border: 2px solid #666A51;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+    font-size: 18px;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    opacity: 60%;
+  }
+
+.lupa {
+    position: absolute;
+    top: 155px;
+    right: 20px;
+    width: 20px;
+}
+
+
+/*---------------------- LOGIN -----------------------*/
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 13px;
+    padding-left: 0px;
+}
+
+li {
+    float: right;
+    margin: 0 0 0 40px;
+}
+
+.clicar-no-login {
+    position: absolute;
+    right: 190px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.popUpLogin {
+    background-image: url(../img/Fundo.login.png);
+    background-size: 100% 100%;
+    display: none;
+    position: fixed;
+    top: 145px;
+    right: 10px;
+    border: 3px solid #666A51;
+    max-width: 300px;
+    height: 648px;
+    width: 430px;
+    padding: 10px;
+    z-index: 9;
+}
+
+#boxlogin {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: "logo logintxt"
+                        "emailpop emailpop"
+                        "pwdpop   pwdpop"
+                        "btns  btns";
+    row-gap: 10px;
+}
+
+#iconpop {
+    grid-template-areas: "logo";
+}
+
+#logintxt {
+    grid-template-areas: "logintxt";
+}
+
+
+
+.btn,
+.btnCancelar {
+    background-color: #667F48;
+    color: white;
+    padding: 16px 20px;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+.popUpLogin> #boxlogin> input {
+    background-color: blue;
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.setinha-f,
+.setinha-m {
+    margin-bottom: 3px;
+}
+
+.divisor {
+    width: 100%;
+    height: 15px;
+    background-color: #666A51;
+}
+
+
+.header-body {
+    width: 100%;
+    height: 130px;
+    background-color: #C9C3C0;
+}
+
+.logotipo {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+.menus-header {
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+/* body do sustentabilidade */
+
+/* box container 100% width */
+
+.sustentabilidade_texto{
+    width: 100%;
+    padding: 100px 300px 10px 300px;
+    text-align: center;
+    font-family: comfortaa;
+    font-size: 20px;
+}
+.sustentabilidade_texto h3, p{
+    color: green;
+    margin: 5px 0 15px 0px;
+}
+.sustentabilidade{
+    width: 100%;
+}
+.sustentabilidade_links{
+    width: 100%;
+    padding: 100px 500px 100px 500px;
+}
+
+/* para as imagens ocuparem 100% do box sustentabilidade_links */
+.sustentabilidade_links figure img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(6, 80, 16, 0.459);
+    margin-bottom: 10px;
+}
+
+#tamar figcaption,#sos figcaption, #wwf figcaption{
+    font-family: comfortaa;
+    font-size: 20px;
+    color: green;
+}
+#tamar a, #sos a, #wwf a{
+    text-decoration: none;
+}
+
+/* para inserir transition nas fotos */
+#tamar, #sos, #wwf{
+    margin-bottom: 50px;
+     transition: transform 1.3s;
+}
+
+#tamar:hover, #sos:hover, #wwf:hover{
+    margin-bottom: 50px;
+    transform: scale(1.1,1.1)
+}
+
+
+/* css da galeria carrousel bolsa palha */
+
+.galeria-carrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-carrossel>li {
+    margin: 10px;
+    list-style-type: none;
+    transition: transform 500ms;
+}
+
+.galeria-carrossel>li:hover {
+    transform: scale(1.05,1.05)
+}
+.galeria-carrossel>li>a>img {
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.detalhes{
+    text-align: center;
+    font-family: comfortaa;
+}
+.principais_buscas{
+    text-align: center;
+    font-family: comfortaa;
+    font-size: 30px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+/* formataçao footer */
+/* container do footerinteiro */
+.footerBox{
+    background-image: url(../img/footer_background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 380px;
+    position: relative;
+    width: 100%;
+    margin: 150px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container do meio do footer */
+.footerContent{
+    background-color:#c7cb8b3b;
+    display: flex;
+    width: 100%;;
+    position: absolute;
+    top: 90px;
+    font-family: Comfortaa;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.socialMenu{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.footerSocial, .footerPayment{
+    margin: 20px 5px 5px 5px;
+}
+.paymentCards{
+    margin-top: 55px;
+}
+.paymentCards p, .socialText h3, .paymentSubscription h3{
+    color: grey;
+}
+.paymentSubscription h3{
+    margin-bottom: 0px;
+}
+.socialText h3{
+    margin-bottom: 5px;
+}
+
+.footerPayment p{
+    padding: 5px 0 10px 0;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+footer ul li{
+    padding: 10px 10px 10px 0px;
+    margin: 0 0 0 0;
+}
+.socialText{
+    padding-bottom: 15px;
+}
+.socialIcons{
+    display: flex;
+    padding: 0 10px 10px 0px;
+    width: 340px;
+    justify-content: space-between;
+}
+#subscriptionEmail{ 
+    background-color: transparent;
+    border: 3px solid gray;
+    color:gray;     
+    padding: 5px 15px 5px 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Comfortaa';
+    width: 260px;
+    transition: background-color 0.2s ease;
+} 
+#subscriptionEmail:hover{
+    background-color: rgba(70, 66, 66, 0.253);
+}
+
+#submitButton{ 
+    background-color: transparent;
+    border: 3px solid gray;
+    color: gray;    
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    font-family: 'Comfortaa';
+} 
+#submitButton:hover{
+    color: beige;
+    background-color: gray;
+}
+
+.paymentCards p{
+    text-align: left;
+    margin: 10px 0 10px 0;
+
+}
+.paymentIcons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0px;
+}
+.socialIcons a, .paymentIcons a, .socialMenu ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.socialIcons a:hover, .paymentIcons a:hover, .socialMenu ul li a:hover{
+    color: rgb(41, 40, 40)
+}
+.textoFinal{
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 38%;
+    font-family: comfortaa;
+    font-size: 22px;
+    font-weight: bolder;
+    color: grey;
+}
+>>>>>>> main
