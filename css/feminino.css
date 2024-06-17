@@ -1,27 +1,28 @@
+
 /* Barra de rolagem */
 
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #666A51;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666A51; 
     border-radius: 10px;
-}
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888f68;; 
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #888f68;
-    ;
-}
 
 html,
 body {
@@ -33,6 +34,7 @@ body {
 header {
     position: fixed;
     width: 100%;
+    
     top: 0px;
     z-index: 5;
 }
@@ -101,9 +103,9 @@ li {
 /* -------------------HEADER---------------- */
 
 .titulo {
-    width: auto;
+    width: 300px;
     height: auto;
-    margin-left: 680px;
+    margin-left: 630px;
     padding-top: 40px;
 }
 
@@ -115,23 +117,23 @@ li {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
-
+    
 }
 
-.nav-menu>ul>li>a {
+.nav-menu > ul > li > a {
     text-decoration: none;
     color: #214723;
     transition: font-size 500ms;
 }
 
 
-.nav-menu>ul>li>a:hover {
+.nav-menu> ul > li > a:hover{
     font-size: 18px;
-    color: #39a740;
+    color: #888f68;
 }
 
-.nav-menu>ul>li>a:active {
-    color: #47d851;
+.nav-menu> ul > li > a:active{
+   color: #888f68;
 }
 
 
@@ -150,7 +152,7 @@ li {
 
 input::placeholder {
     opacity: 60%;
-}
+  }
 
 .lupa {
     position: absolute;
@@ -181,10 +183,9 @@ input::placeholder {
 
 #boxcadastro {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     flex-wrap: wrap;
 }
-
 .btncadastro {
     background-color: #667F48;
     color: white;
@@ -201,7 +202,7 @@ input::placeholder {
 }
 
 #logincadastro {
-    color: #666A51;
+    color: #666A51; 
     font-size: 24px;
     padding: 108px 0px 0px 24px;
 }
@@ -215,8 +216,7 @@ input::placeholder {
     font-size: 16px;
     padding-left: 50px;
 }
-
-.popUpcadastro>#boxcadastro>input {
+.popUpcadastro> #boxcadastro> input {
     background-color: blue;
     width: 90%;
     padding: 15px;
@@ -224,14 +224,14 @@ input::placeholder {
     border: 1px solid #666a51;
     background: #c5c5c58f;
     border-radius: 10px
+   
 }
 
 #suppop2 {
     margin-top: -10px;
     text-align: center;
     color: #666A51;
-    margin: -26px 51px 30px 50px;
-    ;
+    margin: -26px 51px 30px 50px;;
 }
 
 #suppop3 {
@@ -254,9 +254,9 @@ input::placeholder {
 }
 
 #logintxt {
-    color: #666A51;
-    font-size: 18px;
-    padding: 108px 0px 0px 24px;
+       color: #666A51; 
+       font-size: 18px;
+       padding: 108px 0px 0px 24px;
 }
 
 #iconpop {
@@ -268,8 +268,7 @@ input::placeholder {
     margin-top: -26px;
     text-align: center;
     color: #666A51;
-    margin: -26px 51px 30px 50px;
-    ;
+    margin: -26px 51px 30px 50px;;
 }
 
 #btnlabel {
@@ -294,7 +293,7 @@ input::placeholder {
     height: 648px;
     width: 430px;
     border-radius: 30px;
-    z-index: 6;
+    z-index: 3;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -314,12 +313,12 @@ input::placeholder {
 
 #boxlogin {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     flex-wrap: wrap;
 }
 
 
-.btnCancelar {
+.btnCancelar{
     position: absolute;
     width: 40px;
     top: 15px;
@@ -352,7 +351,7 @@ input::placeholder {
 }
 
 
-.popUpLogin>#boxlogin>input {
+.popUpLogin> #boxlogin> input {
     background-color: blue;
     width: 90%;
     padding: 15px;
@@ -360,17 +359,18 @@ input::placeholder {
     border: 1px solid #666a51;
     background: #c5c5c58f;
     border-radius: 10px;
-
+    
 }
 
 /* titulo */
 .titulovitrine {
     text-align: center;
     color: #214723;
-    font-size: 34px;
+    font-size: 23px;
     margin-top: 200px;
     margin-bottom: 10px;
-
+    text-transform: uppercase;
+    padding-top: 20px;
 }
 
 /* vitrine */
@@ -378,25 +378,27 @@ input::placeholder {
 .galeria {
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
     transition: transform 500ms;
-
+    margin: 0;
 }
 
 .galeria>li {
     margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.13) 0px 18px 50px -10px;
+    
 }
 
 .galeria>li:hover {
-    transform: scale(1.05, 1.05);
-    z-index: 0;
-    cursor: pointer;
+    transform: scale(1.05,1.05)
 }
 
 .galeria li>a>img {
     height: 300px;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    border-radius: 5px;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .galeria .detalhes p {
@@ -409,267 +411,30 @@ input::placeholder {
     margin: 0;
 }
 
-.myImages {
-    height: 300px;
-}
-
 .produto {
-    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     margin: 10px 0px 10px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 .preço {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 18px;
     margin: 10px 0px 10px 0px;
 }
 
 .parcelas {
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     margin: 10px 0px 10px 0px;
     color: #667F48;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    max-width: 700px;
-    height: 980px;
-    border-radius: 0px 0px 0px 20px;
-}
-
-.modalHeader {
-    width: 100%;
-    height: 15px;
-    background-color: #666A51;;
-    position: absolute;
-}
-
-.description {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: white;
-    width: 900px;
-    height: 980px;
-    border-radius: 0px 0px 20px 0px;
-}
-
-.tipoDoProduto {
-    font-size: 45px;
-    color: black;
-    padding-left: 53px;
-    top: 0px;
-}
-
-.nomeDoProduto {
-    position: absolute;
-    left: 750px;
-    font-size: 60px;
-    color: black;
-    top: 50px;
-}
-
-.barra {
-    position: absolute;
-    left: 750px;
-    top: 200px;
-    height: 1px;
-    width: 720px;
-    background-color: black;
-}
-
-.sobreOProduto {
-    position: absolute;
-    left: 750px;
-    font-size: 30px;
-    top: 230px;
-}
-
-.barra2 {
-    position: absolute;
-    left: 750px;
-    top: 500px;
-    height: 1px;
-    width: 720px;
-    background-color: black;
-}
-
-.escolhas {
-    position: absolute;
-    left: 750px;
-    font-size: 50px;
-    top: 470px;
-}
-
-.escolhasBall {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 750px;
-    top: 600px;
-    gap: 30px;
-    max-width: 500px;
-}
-
-.escolha1,
-.escolha2,
-.escolha3,
-.escolha4,
-.escolha5,
-.escolha6,
-.escolha7,
-.escolha8,
-.escolha9,
-.escolha10,
-.escolha11,
-.escolha12 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 3px solid black;
-}
-
-.escolha1 {
-    background-color: green;
-}
-
-.escolha2 {
-    background-color: green;
-}
-
-.escolha3 {
-    background-color: green;
-}
-
-.escolha4 {
-    background-color: beige;
-}
-
-.escolha5 {
-    background-color: brown;
-}
-
-.escolha6 {
-    background-color: brown;
-}
-
-.escolha7 {
-    background-color: beige;
-}
-
-.escolha8 {
-    background-color: yellow;
-}
-
-.escolha9 {
-    background-color: green;
-}
-
-.escolha10 {
-    background-color: green;
-}
-
-.escolha11 {
-    background-color: beige;
-}
-
-.escolha12 {
-    background-color: green;
-}
-
-.preco {
-    position: absolute;
-    left: 750px;
-    font-size: 65px;
-    top: 785px;
-}
-
-.btnComprar {
-    position: absolute;
-    left: 1000px;
-    top: 850px;
-    width: 200px;
-    height: 80px;
-    border-radius: 30px;
-    background-color: green;
-    font-size: 35px;
-    text-align: center;
-    line-height: 80px;
-    box-shadow: 10px 10px 7px 0px rgba(0,0,0,0.75);
-    color: white;
-
-}
-
-.btnCarrinho {
-    position: absolute;
-    left: 1250px;
-    top: 850px;
-    width: 200px;
-    height: 80px;
-    border-radius: 30px;
-    background-color: green;
-    font-size: 40px;
-    text-align: center;
-    line-height: 80px;
-    box-shadow: 10px 10px 7px 0px rgba(0,0,0,0.75);
-
-}
-
-.btnCancelarCompra {
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    font-size: 100px;
-}
-
-.btnCarrinho:hover,
-.btnComprar:hover,
-.btnCancelarCompra:hover {
-    cursor: pointer;
-    transform: scale(1.15);
-}
-
-.itemCompleto {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    transform: scale(0.5);
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(0.5)
-    }
+    font-weight: 300;
+    font-style: italic;
 }
 
 
@@ -682,7 +447,7 @@ input::placeholder {
     margin: 100px 0px 60px 0px;
     display: flex;
     flex-direction: row;
-
+    
 }
 
 .informaçoes-cinza img {
@@ -709,12 +474,10 @@ input::placeholder {
 .titulos-info {
     font-size: 22px;
 }
+/* Propiedades Footer */
 
 
-/* Propriedades Footer */
-
-
-footer {
+footer{
     background-image: url(../img/footer_background2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -724,12 +487,11 @@ footer {
     position: relative;
     max-width: 100%;
 }
-
 /* container do meio do footer */
 
 
-.footerContent {
-    background-color: #c7cb8b3b;
+.footerContent{
+    background-color:#c7cb8b3b;
     display: flex;
     width: 100%;
     position: absolute;
@@ -740,134 +502,108 @@ footer {
     padding: 0;
     box-sizing: border-box;
 }
-
-.socialMenu {
+.socialMenu{
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas: 'list1'
-        'list2';
-    width: 450px;
+    grid-template-areas:  "list1 "
+                          "list2 ";
+    width: 340px;
     margin: 5px;
-}
-
+    }
+    
 .list1 {
-    justify-content: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-area: list1;
 }
 
 .list2 {
-    justify-content: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-area: list2;
 }
 
 
-.footerSocial,
-.footerPayment {
+.footerSocial, .footerPayment{
     margin: 5px;
     size: 340px;
 }
 
-.paymentCards p,
-.socialText h3,
-.paymentSubscription h3 {
+.paymentCards p, .socialText h3, .paymentSubscription h3{
     color: grey;
 }
-
-.socialText h3 {
+.socialText h3{
     text-align: center;
-    margin: 0 0 5px 30px;
+    margin-bottom: 5px;
 }
 
-.footerPayment p {
+.footerPayment p{
     padding: 5px 0 10px 0;
 }
-
-footer ul {
+footer ul{
     list-style-type: none;
 }
-
-footer ul li {
+footer ul li{
     gap: 5px;
     margin: 0px;
     padding: 0px 0px 0px 0px;
     text-align: center;
 }
-
-.socialText {
-    padding-left: 8px;
+.socialText{
+    padding-left: 10px;
     padding-bottom: 15px;
 }
-
-.socialIcons {
-    display: flex;
-    padding: 0 0 8px 37px;
-    width: 450px;
-    justify-content: space-between;
-    margin: 5px;
+.socialIcons{
+   display: flex;
+   padding: 0 0 10px 10px;
+   width: 340px;
+   justify-content: space-between;
+   margin: 5px;
 }
-
-#subscriptionEmail {
+#subscriptionEmail{ 
     background-color: transparent;
     border: 3px solid gray;
-    color: #808080;
+    color: #808080;    
     padding: 5px 15px 5px 5px;
     margin-top: 10px;
     font-size: 16px;
     border-radius: 5px;
-    font-family: Montserrat;
-}
-
-#submitButton {
+} 
+#submitButton{ 
     background-color: transparent;
     border: 3px solid gray;
-    color: gray;
+    color: gray;    
     padding: 5px 15px 5px 15px;
     margin-top: 10px;
     font-size: 16px;
-    font-family: Montserrat;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.5s ease;
+} 
+#submitButton:hover{
+    color: darkgrey;
 }
 
-#submitButton:hover {
-    color: rgb(70, 70, 70);
-    font-weight: bold;
-}
-
-.paymentCards p {
+.paymentCards p{
     margin: 10px 0 10px 0;
 
 }
-
-.paymentIcons {
+.paymentIcons{
     display: flex;
     justify-content: space-between;
     padding: 0 0 10px 0px;
 }
-
-.socialIcons a,
-.paymentIcons a,
-.socialMenu ul li a {
+.socialIcons a, .paymentIcons a, .socialMenu ul li a{
     text-decoration: none;
-    color: gray;
+    color: grey;
 }
-
-.socialIcons a:hover,
-.paymentIcons a:hover,
-.socialMenu ul li a:hover {
-    color: rgb(70, 70, 70);
-}
-
-#textoFinal {
+#textoFinal{
     text-align: center;
     position: absolute;
     width: 520px;
-    top: 315px;
+    top: 350px;
     left: 50%;
     margin-left: -255px;
     font-family: comfortaa;
