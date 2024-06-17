@@ -553,23 +553,23 @@ input::placeholder {
 }
 
 .escolha1 {
-    background-color: green;
+    background-color: rgb(110, 173, 233);
 }
 
 .escolha2 {
-    background-color: green;
+    background-color: rgb(110, 173, 233);
 }
 
 .escolha3 {
-    background-color: green;
+    background-color: rgb(110, 173, 233);;
 }
 
 .escolha4 {
-    background-color: beige;
+    background-color: rgb(110, 173, 233);;
 }
 
 .escolha5 {
-    background-color: brown;
+    background-color: whitesmoke;
 }
 
 .escolha6 {
@@ -581,23 +581,23 @@ input::placeholder {
 }
 
 .escolha8 {
-    background-color: yellow;
+    background-color: brown;
 }
 
 .escolha9 {
-    background-color: green;
+    background-color: orange;
 }
 
 .escolha10 {
-    background-color: green;
+    background-color: yellowgreen;
 }
 
 .escolha11 {
-    background-color: beige;
+    background-color: yellowgreen;
 }
 
 .escolha12 {
-    background-color: green;
+    background-color: orange;
 }
 
 .preco {
