@@ -25,8 +25,9 @@
 
   html,
 body {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: #ececec;
 }
 
 header {
@@ -42,6 +43,7 @@ header {
     margin: 0px auto;
     border: 4px solid transparent;
     background-color: #ffffff;
+    
 }
 
 .container {
@@ -297,7 +299,7 @@ li {
 .titulo {
     width: auto;
     height: auto;
-    margin-left: 680px;
+    margin-left: 630px;
     padding-top: 40px;
 }
 
@@ -354,26 +356,19 @@ input::placeholder {
 .quemsomos {
     text-align: center;
     color: #214723;
-    font-size: 34px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .quemsomosEX {
     text-align: center;
     color: #214723;
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 34px;
-    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
-
-/* Início do site */
-/* .contato-esquerdo {
-    padding: 20px;
-    margin-top: 20px;
-
-} */
 
 
 #bikini-banner {
@@ -382,34 +377,45 @@ input::placeholder {
     box-shadow: rgba(0, 0, 0, 0.712) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.contato-esquerdo2 {
-    padding: 20px;
-    
+.formas-de-contato {
+    display: flex;
 }
-.box {
-    max-width: 1200px;
-    margin: 100px auto;
-    border: 5px solid transparent;
-    background-color: #ffffff;
+.box2 {
+    padding: 0 30px; 
 }
+
+.texte {
+    font-family: "Montserrat";
+    text-align: left;
+    color: #214723;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.texte:hover {
+    color: #888f68;
+   
+}
+
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 0;
+    padding-left: 75px;
     
 }
 
-/* box de contato */
+/* Box de contato */
 
 .contato-box {
     height: 600px;
     width: 800px;
-    background-color: rgba(255, 255, 255, 0);
-    margin: 0 100px 0 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
     border-radius: 50px;
     border: solid 4px #666A51;
+    background-color: #888f6825;
+    
 }
 
 b {
@@ -420,6 +426,7 @@ b {
     padding-right: 140px;
     padding-left: 140px;
     padding-top: 50px;
+
 }
 
 .contato-button {
@@ -432,6 +439,7 @@ b {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    background-color: #ececec;
 
 }
 
@@ -514,7 +522,7 @@ b {
 
 
 
-/* Propriedades Footer */
+/* Propiedades Footer */
 
 
 footer{
@@ -527,6 +535,8 @@ footer{
     position: relative;
     max-width: 100%;
 }
+
+
 /* container do meio do footer */
 
 
@@ -545,20 +555,21 @@ footer{
 .socialMenu{
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-areas:  "list1 " "list2 ";
-    width: 450px;
+    grid-template-areas:  "list1 "
+                          "list2 ";
+    width: 340px;
     margin: 5px;
     }
     
 .list1 {
-    justify-content: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-area: list1;
 }
 
 .list2 {
-    justify-content: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-area: list2;
@@ -567,7 +578,7 @@ footer{
 
 .footerSocial, .footerPayment{
     margin: 5px;
-    width: 450px;
+    size: 340px;
 }
 
 .paymentCards p, .socialText h3, .paymentSubscription h3{
@@ -575,7 +586,7 @@ footer{
 }
 .socialText h3{
     text-align: center;
-    margin: 0 0 5px 30px;
+    margin-bottom: 5px;
 }
 
 .footerPayment p{
@@ -591,19 +602,16 @@ footer ul li{
     text-align: center;
 }
 .socialText{
-        padding: 20px 0px 15px 10px;
-        padding-left: 10px;
-        padding-bottom: 15px;
-
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
-.socialIcons {
-    display: flex;
-    padding: 0 0 8px 0px;
-    width: 400px;
-    justify-content: space-between;
-    margin: 5px 5px 5px 45px;
+.socialIcons{
+   display: flex;
+   padding: 0 0 10px 10px;
+   width: 340px;
+   justify-content: space-between;
+   margin: 5px;
 }
-
 #subscriptionEmail{ 
     background-color: transparent;
     border: 3px solid gray;
@@ -612,7 +620,6 @@ footer ul li{
     margin-top: 10px;
     font-size: 16px;
     border-radius: 5px;
-    font-family: Montserrat;
 } 
 #submitButton{ 
     background-color: transparent;
@@ -621,14 +628,12 @@ footer ul li{
     padding: 5px 15px 5px 15px;
     margin-top: 10px;
     font-size: 16px;
-    font-family: Montserrat;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.5s ease;
 } 
 #submitButton:hover{
-    color: rgb(70, 70, 70);
-    font-weight: bold;
+    color: darkgrey;
 }
 
 .paymentCards p{
@@ -644,11 +649,6 @@ footer ul li{
     text-decoration: none;
     color: grey;
 }
-
-.socialIcons a:hover, .paymentIcons a:hover, .socialMenu ul li a:hover{
-    color: rgb(70, 70, 70);
-}
-
 #textoFinal{
     text-align: center;
     position: absolute;
