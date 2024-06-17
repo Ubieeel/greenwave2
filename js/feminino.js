@@ -53,84 +53,84 @@ fechar.onclick = function () {
 }
 
 function mudarIMG() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0002.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Verde";
-    document.getElementById('precoBiquini').innerHTML = "R$ 180";
+    document.getElementById('img01').src="../img/Vitrine feminino/meia-taça-marlim.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI TRIÂNGULO OFF WHITE";
+    document.getElementById('precoBiquini').innerHTML = "R$ 149";
 }
 
 function mudarIMG2() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0003.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Malibu Verde";
-    document.getElementById('precoBiquini').innerHTML = "R$ 240";
+    document.getElementById('img01').src="../img/Vitrine feminino/cortininha-marlim.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI TRIÂNGULO";
+    document.getElementById('precoBiquini').innerHTML = "R$ 159";
 
 }
 
 function mudarIMG3() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0004.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Top Verde";
-    document.getElementById('precoBiquini').innerHTML = "R$ 120";
+    document.getElementById('img01').src="../img/Vitrine feminino/biquini-sport-marlim.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI SPORT MARLIM";
+    document.getElementById('precoBiquini').innerHTML = "R$ 139";
 
 }
 
 function mudarIMG4() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0005.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Slip Bege";
-    document.getElementById('precoBiquini').innerHTML = "R$ 90";
+    document.getElementById('img01').src="../img/Vitrine feminino/triangulo-marlim.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUINI TRIÂNGULO MARLIM";
+    document.getElementById('precoBiquini').innerHTML = "R$ 149";
 
 }
 
 function mudarIMG5() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0006.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Hot Pant Top Marrom";
+    document.getElementById('img01').src="../img/Vitrine feminino/top-triangulo-fixo-off.jpg"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI TRIÂNGULO OFF WHITE";
     document.getElementById('precoBiquini').innerHTML = "R$ 180";
 
 }
 
 function mudarIMG6() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0007.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Top Marrom";
+    document.getElementById('img01').src="../img/Vitrine feminino/top-faixa-cafe.webp"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI HOT PANTS CAFÉ";
     document.getElementById('precoBiquini').innerHTML = "R$ 240";
 
 }
 
 function mudarIMG7() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0008.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Top Bege";
+    document.getElementById('img01').src="../img/Vitrine feminino/top-cortininha-off.jpg"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI CORTININHA OFF WHITE";
     document.getElementById('precoBiquini').innerHTML = "R$ 120";
 
 }
 
 function mudarIMG8() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0009.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Hot Pant Mostarda";
+    document.getElementById('img01').src="../img/Vitrine feminino/top-sport-cafee.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI SPORT CAFÉ";
     document.getElementById('precoBiquini').innerHTML = "R$ 90";
 
 }
 
 function mudarIMG9() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0010.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Cortininha Slip Verde";
+    document.getElementById('img01').src="../img/Vitrine feminino/faixa-avocado.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI FAIXA AVOCADO";
     document.getElementById('precoBiquini').innerHTML = "R$ 180";
 
 }
 
 function mudarIMG10() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0011.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Top Verde";
+    document.getElementById('img01').src="../img/Vitrine feminino/cortininha-amarelo.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI CORTININHA AMARELO";
     document.getElementById('precoBiquini').innerHTML = "R$ 240";
 
 }
 
 function mudarIMG11() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0012.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Cortininha Bege";
+    document.getElementById('img01').src="../img/Vitrine feminino/sport-amarelo.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI SPORT AMARELO";
     document.getElementById('precoBiquini').innerHTML = "R$ 120";
 
 }
 
 function mudarIMG12() {
-    document.getElementById('img01').src="../img/Vitrine feminino/IMG-20240604-WA0013.jpg"
-    document.getElementById('prodDescr').innerHTML = "Biquini Slip Verde";
+    document.getElementById('img01').src="../img/Vitrine feminino/hot-pants-avocado.png"
+    document.getElementById('prodDescr').innerHTML = "BIQUÍNI PANTS AVOCADO";
     document.getElementById('precoBiquini').innerHTML = "R$ 90";
 
 }
