@@ -12,7 +12,7 @@
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-  
+  <link rel="icon" href="/img/Logo icon.png">
   <!-- termino do link para  -->
 </head>
 
@@ -30,50 +30,50 @@
       <!--   Login   -->
       <div class="clicar-no-login" onclick="AbrirLogin()"></div>
       <div class="popUpLogin" id="login">
-          <div id="boxlogin">
+        <div id="boxlogin">
 
-              <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
-              <h1 id="logintxt">Conecte-se a sua conta</h1>
+          <img id="iconpop" src="img/Logo icon.png" alt="Logo icon">
+          <h1 id="logintxt">Conecte-se a sua conta</h1>
 
-              <!-- linha 2 -->
-              <label id="btnlabel" for="email"><b>Nome de usuário</b></label>
-              <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
-              <label id="btnlabel" for="psw"><b>Senha</b></label>
-              <input class="inputpop" type="password" placeholder="Senha..." name="psw" required>
-              <a id="suppop" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+          <!-- linha 2 -->
+          <label id="btnlabel" for="email"><b>Nome de usuário</b></label>
+          <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+          <label id="btnlabel" for="psw"><b>Senha</b></label>
+          <input class="inputpop" type="password" placeholder="Senha..." name="psw" required>
+          <a id="suppop" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
 
 
-              <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
-              <button type="button" class="btncadastro" onclick="Abrircadastro()">Cadastrar-se</button>
-              <button type="button" class="btnCancelar" onclick="FecharLogin()">X</button>
-              
-          </div>
+          <button type="submit" class="btn" onclick="window.location.reload()">Login</button>
+          <button type="button" class="btncadastro" onclick="Abrircadastro()">Cadastrar-se</button>
+          <button type="button" class="btnCancelar" onclick="FecharLogin()">X</button>
+
+        </div>
       </div>
 
       <!-- cadastro -->
       <div class="popUpcadastro" id="cadastro">
-          <div id="boxcadastro"> 
-          
-              <img id="iconpop2" src="img/Logo icon.png" alt="Logo icon">
-              <h1 id="logincadastro">Registre a sua conta</h1>
+        <div id="boxcadastro">
 
-              <!-- cadastros -->
+          <img id="iconpop2" src="img/Logo icon.png" alt="Logo icon">
+          <h1 id="logincadastro">Registre a sua conta</h1>
 
-              <label id="btnlabel2" for="email"><b>Nome de usuário</b></label>
-              <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
-              <label id="btnlabel2" for="email"><b>Endereço de Email</b></label>
-              <input class="inputpop" type="password" placeholder="Email..." name="psw" required>
-              <label id="btnlabel" for="psw"><b>Senha</b></label>
-              <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
-              <label id="btnlabel" for="psw"><b>Confirme a senha</b></label>
-              <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
-              <a id="suppop2" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+          <!-- cadastros -->
 
-              <button type="submit" class="btn" onclick="window.location.reload()">Enviar</button>
-              <a id="suppop3"  onclick="AbrirLogin()" href="#">Já tem uma conta? Conecte-se agora!</a>
-              <button type="button" class="btnCancelar" onclick="Fecharcadastro()">X</button>
-          </div> <!-- cadastro fim box -->
-      </div>  <!-- cadastro fim -->
+          <label id="btnlabel2" for="email"><b>Nome de usuário</b></label>
+          <input class="inputpop" type="text" placeholder="Insira seu nome de usuário..." name="email" required>
+          <label id="btnlabel2" for="email"><b>Endereço de Email</b></label>
+          <input class="inputpop" type="password" placeholder="Email..." name="psw" required>
+          <label id="btnlabel" for="psw"><b>Senha</b></label>
+          <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+          <label id="btnlabel" for="psw"><b>Confirme a senha</b></label>
+          <input class="inputpop" type="password" placeholder="Insira a senha..." name="psw" required>
+          <a id="suppop2" href="#">Problemas ao conectar? Contate o nosso time de suporte.</a>
+
+          <button type="submit" class="btn" onclick="window.location.reload()">Enviar</button>
+          <a id="suppop3" onclick="AbrirLogin()" href="#">Já tem uma conta? Conecte-se agora!</a>
+          <button type="button" class="btnCancelar" onclick="Fecharcadastro()">X</button>
+        </div> <!-- cadastro fim box -->
+      </div> <!-- cadastro fim -->
     </div>
     </div>
 
@@ -86,7 +86,7 @@
         <li><a href="sustentabilidade.html">SUSTENTABILIDADE</a></li>
         <li><a href="contato.html">CONTATO</a></li>
         <li><a href="sobre.html">SOBRE NÓS</a></li>
-    </ul>
+      </ul>
       <div>
         <input type="text" class="menu-de-busca" placeholder="O que deseja buscar?">
         <img src="img/lupinha.png" class="lupa">
@@ -105,7 +105,7 @@
 
       <ul class="galeria">
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0002.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0002.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquini <br>Verde</h3>
             <h2 class="preço">R$ 180,00</h2>
@@ -113,7 +113,7 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0003.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0003.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquini <br> Malibu Verde</h3>
             <h2 class="preço">R$ 240,00</h2>
@@ -121,7 +121,7 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0004.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0004.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni <br> Top Verde</h3>
             <h2 class="preço">R$ 120,00</h2>
@@ -129,7 +129,7 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0005.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0005.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquini Slip<br> Bege</h3>
             <h2 class="preço">R$ 90,00</h2>
@@ -141,16 +141,16 @@
 
       <ul class="galeria">
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0006.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0006.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni Hot Pant <br>
-            Top Marrom</h3>
+              Top Marrom</h3>
             <h2 class="preço">R$ 180,00</h2>
             <p class="parcelas">ou 3x R$ 90,00</p>
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0007.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0007.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni Top <br> Marrom </h3>
             <h2 class="preço">R$ 240,00</h2>
@@ -158,7 +158,7 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0008.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0008.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni Top <br> Bege </h3>
             <h2 class="preço">R$ 120,00</h2>
@@ -166,7 +166,7 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0009.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0009.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni Hot Pant <br>
               Mostarda</h3>
@@ -181,23 +181,23 @@
 
       <ul class="galeria">
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0010.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0010.jpg" class="myImages">
           <div class="detalhes">
-            <h3 class="produto">Biquíni Cortininha <br> Slip  Verde </h3>
+            <h3 class="produto">Biquíni Cortininha <br> Slip Verde </h3>
             <h2 class="preço">R$ 180,00</h2>
             <p class="parcelas">ou 3x R$ 90,00</p>
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0011.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0011.jpg" class="myImages">
           <div class="detalhes">
-            <h3 class="produto">Biquíni Top  <br> Verde </h3>
+            <h3 class="produto">Biquíni Top <br> Verde </h3>
             <h2 class="preço">R$ 240,00</h2>
             <p class="parcelas">ou 3x R$ 80,00</p>
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0012.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0012.jpg" class="myImages">
           <div class="detalhes">
             <h3 class="produto">Biquíni Cortininha <br> Bege </h3>
             <h2 class="preço">R$ 120,00</h2>
@@ -205,14 +205,46 @@
           </div>
         </li>
         <li>
-          <a href="#"><img src="img/Vitrine feminino/IMG-20240604-WA0013.jpg"></a>
+          <img src="img/Vitrine feminino/IMG-20240604-WA0013.jpg" class="myImages">
           <div class="detalhes">
-            <h3 class="produto">Biquíni <br> Slip  Verde </h3>
+            <h3 class="produto">Biquíni <br> Slip Verde </h3>
             <h2 class="preço">R$ 90,00</h2>
             <p class="parcelas">ou 3x R$ 30,00</p>
           </div>
         </li>
       </ul>
+      <div id="myModal" class="modal">
+        <section class="itemCompleto">
+          <img class="modal-content" id="img01">
+          <div class="modalHeader"></div>
+          <div class="description">
+            <p class="tipoDoProduto">Biquinis</p>
+            <p class="nomeDoProduto">Biquini sla</p>
+            <div class="barra"></div>
+            <p class="sobreOProduto" id="prodDescr">biquinis</p>
+            <div class="barra2"></div>
+            <p class="escolhas">Escolhas de biquinis</p>
+            <div class="escolhasBall">
+              <div class="escolha1" onclick="mudarIMG()"></div>
+              <div class="escolha2" onclick="mudarIMG2()"></div>
+              <div class="escolha3" onclick="mudarIMG3()"></div>
+              <div class="escolha4" onclick="mudarIMG4()"></div>
+              <div class="escolha5" onclick="mudarIMG5()"></div>
+              <div class="escolha6" onclick="mudarIMG6()"></div>
+              <div class="escolha7" onclick="mudarIMG7()"></div>
+              <div class="escolha8" onclick="mudarIMG8()"></div>
+              <div class="escolha9" onclick="mudarIMG9()"></div>
+              <div class="escolha10" onclick="mudarIMG10()"></div>
+              <div class="escolha11" onclick="mudarIMG11()"></div>
+              <div class="escolha12" onclick="mudarIMG12()"></div>
+            </div>
+            <p class="preco" id="precoBiquini">R$250</p>
+            <div class="btnCancelarCompra">&times;</div>
+            <div class="btnComprar">Comprar</div>
+            <div class="btnCarrinho"><i class="fa-solid fa-cart-plus fa-lg" style="color: #ffffff;"></i></div>
+          </div>
+        </section>
+      </div>
     </div>
   </div>
 
@@ -319,7 +351,7 @@
   <script src="https://kit.fontawesome.com/b7057748ce.js" crossorigin="anonymous"></script>
 
   <!-- lik java -->
-  <script src="js/script.js"></script>
+  <script src="js/feminino.js"></script>
 </body>
 
 </html>
