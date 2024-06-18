@@ -611,7 +611,7 @@ input::placeholder {
 
 .btnComprar {
     position: absolute;
-    left: 1000px;
+    left: 1020px;
     top: 850px;
     width: 200px;
     height: 80px;
@@ -627,7 +627,7 @@ input::placeholder {
 
 .btnCarrinho {
     position: absolute;
-    left: 1250px;
+    left: 1240px;
     top: 850px;
     width: 200px;
     height: 80px;

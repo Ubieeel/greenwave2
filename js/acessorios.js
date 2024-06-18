@@ -55,82 +55,82 @@ fechar.onclick = function () {
 function mudarIMG() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0001.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Bege";
-    document.getElementById('precoBiquini').innerHTML = "R$ 180";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 }
 
 function mudarIMG2() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0002.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Cinza";
-    document.getElementById('precoBiquini').innerHTML = "R$ 240";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG3() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0003.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Amarelo";
-    document.getElementById('precoBiquini').innerHTML = "R$ 120";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG4() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0004.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Preto";
-    document.getElementById('precoBiquini').innerHTML = "R$ 90";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG5() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0005.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Marrom";
-    document.getElementById('precoBiquini').innerHTML = "R$ 180";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG6() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0006.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Preto Arpoador";
-    document.getElementById('precoBiquini').innerHTML = "R$ 240";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG7() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0001.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Bege";
-    document.getElementById('precoBiquini').innerHTML = "R$ 120";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG8() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0002.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Cinza";
-    document.getElementById('precoBiquini').innerHTML = "R$ 90";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG9() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0003.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Amarelo";
-    document.getElementById('precoBiquini').innerHTML = "R$ 180";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG10() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0004.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Preto";
-    document.getElementById('precoBiquini').innerHTML = "R$ 240";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG11() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0005.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Marrom";
-    document.getElementById('precoBiquini').innerHTML = "R$ 120";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
 
 function mudarIMG12() {
     document.getElementById('img01').src="../img/Acessorios/IMG-20240603-WA0006.jpg"
     document.getElementById('prodDescr').innerHTML = "Boné Preto Arpoador";
-    document.getElementById('precoBiquini').innerHTML = "R$ 90";
+    document.getElementById('precoBiquini').innerHTML = "R$89,90";
 
 }
