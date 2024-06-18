@@ -3,6 +3,15 @@ document.getElementById("cadastro").style.display = "none";
 document.getElementById("login").style.display = "none";
 document.getElementById("back").style.display = "none";
 
+
+function Abriraba() {
+  document.getElementById("aba").style.display = "block";
+  }
+
+  function fecharaba() {
+    document.getElementById("aba").style.display = "none";
+    }
+
 function AbrirLogin() {
   document.getElementById("back").style.display = "block";
   document.getElementById("login").style.display = "block";
