@@ -432,6 +432,7 @@ input::placeholder {
     font-size: 25px;
     margin: 10px 0px 10px 0px;
     color: #667F48;
+    font-style: italic;
 }
 
 .modal {
