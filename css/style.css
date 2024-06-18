@@ -382,7 +382,7 @@ section.slider {
 
 .slider-content {
     width: 400%;
-    height: auto;
+    height: 600px;
     display: flex;
 }
 
@@ -572,6 +572,10 @@ nav-auto div:not(:last-child) {
     border-radius: 50px;
 }
 
+.detalhes {
+    scale: 1;
+    margin-top: -10px;
+}
 
 .galeria_2 .detalhes h3 {
     color: #667F48;
@@ -857,23 +861,18 @@ footer ul li {
     display: none;
 }
 
-.clicar-aba {
-    display: none;
-}
 
 /* mobile */
 
-@media screen and (max-width: 1020px) {
+@media only screen and (max-width: 1020px) {
+
 
     * {
-        
+
         padding: 0;
         margin: 0;
     }
 
-    html {
-        max-width: 414px;
-    }
 
     .nav-menu>ul {
         display: none;
@@ -909,6 +908,10 @@ footer ul li {
     .slider,
     .slide-box {
         scale: 0.9;
+    }
+
+    .slider-content {
+        height: 300px;
     }
 
     .primeiro {
@@ -962,18 +965,20 @@ footer ul li {
         flex-wrap: wrap;
     }
 
-   
+
 
     header {
-        max-width: 414px;
+        max-width: auto;
     }
- 
+
 
     .principais_buscas {
-        margin-top: px;
+        margin-left: auto;
+        margin-right: auto;
         scale: 1.2;
+        margin-top: 20px;
+        max-width: max-content;
     }
-
 
     .informaçoes-cinza {
         margin-top: -30px;
@@ -984,7 +989,8 @@ footer ul li {
     }
 
 
-    footer{
+    footer {
+        max-width: auto;
         padding-top: 20px;
     }
 
@@ -995,10 +1001,11 @@ footer ul li {
         row-gap: 150px;
         display: flex;
         flex-wrap: wrap;
+
     }
 
     .espaco {
-        margin-top: -200px;
+        margin-top: -150px;
     }
 
     .galeria_2 {
@@ -1010,30 +1017,27 @@ footer ul li {
         margin-bottom: 40px;
     }
 
-    .detalhes {
-        scale: 1.2;
-        margin-top: 29px;
-        padding-bottom: 29px;
-
-    }
-
 
 
     /* aba nav */
 
-    .nav-menu2> ul {
+    .nav-menu2>ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         row-gap: 20px;
     }
 
-    .nav-menu2> ul > li> a {
+    .nav-menu2>ul>li>a {
         text-decoration: none;
         color: #214723;
-       
+
     }
 
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
 
     .abanav {
         border-radius: 20px;
@@ -1049,29 +1053,20 @@ footer ul li {
         width: 300px;
     }
 
-    .clicar-aba{
-        display: block;
-        width: 30px;
-        height: 30px;
-        padding-top: 100px;
-        padding-left: 40px;
-    z-index: 13;
-    }
 
     #moreicon {
         display: block;
-        position: relative;
+        position: fixed;
         width: 30px;
         height: 30px;
-        right: 30px;
-        padding-top: 100px;
-        padding-left: 0px;
-    }   
+        margin-top: 100px;
+        margin-left: 350px;
+    }
 
     /* login */
 
 
-   .popUpLogin {
+    .popUpLogin {
         scale: 0.7;
         margin-left: -10px;
     }
@@ -1081,14 +1076,14 @@ footer ul li {
         margin: -85px;
     }
 
-    .botaozinho{
-    border: 3px solid #666A51;
-    background-color: #666A51;
-    padding: 5px 15px 5px 15px;
-    border-radius: 50px;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 15px;
+    .botaozinho {
+        border: 3px solid #666A51;
+        background-color: #666A51;
+        padding: 5px 15px 5px 15px;
+        border-radius: 50px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 15px;
     }
 
 
@@ -1098,13 +1093,14 @@ footer ul li {
         scale: 1.1;
     }
 
+
     .footerSocial {
-       scale: 0.8;
-       margin-left: -70px;
+        scale: 0.8;
+        margin-left: -55px;
     }
 
 
-    .paymentSubscription >h3 {
+    .paymentSubscription>h3 {
         margin-top: -150px;
     }
 
@@ -1115,6 +1111,7 @@ footer ul li {
     .paymentCards {
         scale: 0.8;
     }
+
 
 
 
