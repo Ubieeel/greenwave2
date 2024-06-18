@@ -603,12 +603,12 @@ footer ul li{
     text-align: center;
 }
 .socialText{
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 15px;
 }
 .socialIcons{
    display: flex;
-   padding: 0 0 10px 10px;
+   padding: 0 0 10px 60px;
    width: 340px;
    justify-content: space-between;
    margin: 5px;
